@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{6a56a85d-b877-4ce7-b0cc-a92a43a6f7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\pokemon">
+      <UniqueIdentifier>{472f33a7-1f6a-4551-bd9c-c84a4d7fc045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\skill">
+      <UniqueIdentifier>{4c5cefa8-c157-44bf-aaca-98366ad8f4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\skill\fire_attribute_skill">
+      <UniqueIdentifier>{379adb21-4d86-4230-8dff-587f3d5cfb2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\skill\water_attribute_skill">
+      <UniqueIdentifier>{1f84fc31-e756-418e-8c7e-8728b1229c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\skill\wood_attribute_skill">
+      <UniqueIdentifier>{f70e0b1d-1900-4646-a774-749f642e51ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scene_pokemon.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_game.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_menu.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_knapsack.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="animation_errored.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="picture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_set.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon.h">
+      <Filter>头文件\pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon_player.h">
+      <Filter>头文件\pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_line.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pointf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon_attribute.h">
+      <Filter>头文件\pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="fire.h">
+      <Filter>头文件\skill\fire_attribute_skill</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon_bulbasaur.h">
+      <Filter>头文件\pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="pokeman_charmander.h">
+      <Filter>头文件\pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon_squirtle.h">
+      <Filter>头文件\pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon_type.h">
+      <Filter>头文件\pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="water_gun.h">
+      <Filter>头文件\skill\water_attribute_skill</Filter>
+    </ClInclude>
+    <ClInclude Include="fly_leaf.h">
+      <Filter>头文件\skill\wood_attribute_skill</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_attribute.h">
+      <Filter>头文件\skill</Filter>
+    </ClInclude>
+    <ClInclude Include="flame_jet.h">
+      <Filter>头文件\skill\fire_attribute_skill</Filter>
+    </ClInclude>
+    <ClInclude Include="mysql_fun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="music_fun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_progress_bar.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_login_registration.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_exit.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bug_and_problem_list" />
+  </ItemGroup>
+</Project>
